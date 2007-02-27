@@ -208,7 +208,7 @@ public class ProgramsUi {
 		}
 		if (activeTab == null) {
 			// First time through.
-			ProgramsTab tab = (ProgramsTab)tabs.get(main.program.group);
+			ProgramsTab tab = tabs.get(main.program.group);
 			tabbedPane.setSelectedComponent(tab.panel);
 			activateTab(tab);
 			tab.listComponent.requestFocus();

@@ -105,7 +105,7 @@ public class Library {
 	}
 
 	public Program getProgram(String id) {
-		Program program = (Program)programIdToProgram.get(id);
+		Program program = programIdToProgram.get(id);
 		if (program == null) {
 			File file = new File(this.programsDirectory, id + ".rb");
 			program = new Program();
