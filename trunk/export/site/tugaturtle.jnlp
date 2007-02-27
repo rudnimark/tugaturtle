@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp codebase="http://bagotricks.com/projects/tugaturtle/">
+	<information>
+		<title>Tuga Turtle</title>
+		<vendor>Bagotricks.com</vendor>
+		<icon href="turtle128.png"/>
+		<offline-allowed/>
+	</information>
+	<security>
+		<all-permissions/>
+	</security>
+	<resources>
+		<j2se version="1.5+"/>
+		<jar href="tugaturtle.jar"/>
+		<jar href="jruby.jar"/>
+	</resources>
+	<application-desc main-class="bagotricks.tuga.turtle.Main"/>
+</jnlp>
